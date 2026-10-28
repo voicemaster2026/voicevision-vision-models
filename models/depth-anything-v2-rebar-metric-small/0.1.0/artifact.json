@@ -1,0 +1,42 @@
+{
+  "schema": "voicevision.model-artifact/1",
+  "id": "depth-anything-v2-rebar-metric-small",
+  "version": "0.1.0",
+  "status": "experimental_candidate",
+  "task": "metric optical-axis depth on synthetic rebar imagery",
+  "architecture": {
+    "family": "Depth Anything V2 Metric",
+    "encoder": "vits",
+    "features": 64,
+    "out_channels": [48, 96, 192, 384],
+    "max_depth_m": 20.0,
+    "minimum_input_dimension": 518
+  },
+  "artifact_file": "model.pt",
+  "artifact_size_bytes": 99216439,
+  "artifact_sha256": "a1b8bfb1b77141fa91a0389e1a29905052e3ba8f5e0d7c3e46497b151e6ca23b",
+  "baseline_file": "pretrained_baseline.pt",
+  "baseline_size_bytes": 99235101,
+  "baseline_sha256": "b782898d8a3e8be1f639de33837ed85e9b4b73e40f8f5e5cd99067588d722545",
+  "base_model": {
+    "id": "depth-anything/Depth-Anything-V2-Metric-Hypersim-Small",
+    "revision": "3bc65d4e14a6786a61acec16453c50e12bf5f338",
+    "license": "Apache-2.0",
+    "source_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Metric-Hypersim-Small/tree/3bc65d4e14a6786a61acec16453c50e12bf5f338"
+  },
+  "training_data": {
+    "id": "sal0-h/industrial-rebar-metric-depth",
+    "revision": "f3e5145a34e68a37cb5c5027367fa3db12db66f1",
+    "license": "CC-BY-4.0",
+    "manifest": "dataset-manifest.json",
+    "manifest_sha256": "58a86fbf7cf9f49f4bd00f1c0f940c913007061f5d7d3dd2f3f08b4fc3095f91"
+  },
+  "evaluation": "evaluation.json",
+  "training_code": "../../../../tools/train_rebar_depth_candidate.py",
+  "limitations": [
+    "Strong synthetic validation does not transfer to the held-out synthetic pier scene; candidate abs_rel is 0.946 and RMSE is 11.86 m.",
+    "Not suitable for metrology, production inspection, or accept/reject decisions.",
+    "The held-out scene is synthetic and is not surveyed physical ground truth.",
+    "This candidate is not integrated into the VoiceVision runtime."
+  ]
+}

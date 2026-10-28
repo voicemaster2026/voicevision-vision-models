@@ -105,3 +105,14 @@ python tools/train_robustad_siglip2.py \
   --dataset-source-manifest models/robustad-siglip2-anomaly-v1/1.0.0/dataset-source-manifest.json \
   --output-dir training-output/robustad-reproduction
 ```
+
+## Depth Anything V2 metric-depth candidate
+
+The experimental rebar fine-tuning candidate, its full weights, the exact
+pretrained initialization weights, training/evaluation code, and provenance
+manifests are in
+[`models/depth-anything-v2-rebar-metric-small/0.1.0/`](models/depth-anything-v2-rebar-metric-small/0.1.0/).
+It has low error on held-out camera rings within two synthetic scenes but poor
+transfer to a third synthetic scene (candidate abs_rel 0.946, RMSE 11.855 m).
+It is not validated for physical metrology or production use. See its model
+card before use.
