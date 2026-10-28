@@ -1,0 +1,5 @@
+xFormers not available
+xFormers not available
+{"pretrained_baseline_validation": {"images": 336, "valid_pixels": 9703015, "macro": {"abs_rel": 4.4961048763777525, "rmse_m": 1.6491172996660073, "silog": 1.108790737399388, "delta1": 0.0011747149035814107, "delta2": 0.01958242398056124, "delta3": 0.06496768133432679}}}
+{"epoch": 1, "train_silog_loss": 0.11210418395747088, "validation": {"images": 336, "valid_pixels": 9703015, "macro": {"abs_rel": 0.06493008577464414, "rmse_m": 0.03711012876980627, "silog": 0.06920387028783027, "delta1": 0.9918017124845868, "delta2": 0.9999843101416316, "delta3": 0.9999998165738015}}, "elapsed_seconds": 1404.249653339386}
+{"epoch": 2, "train_silog_loss": 0.07005675116210784, "validation": {"images": 336, "valid_pixels": 9703015, "macro": {"abs_rel": 0.09401141307760208, "rmse_m": 0.04254008895562341, "silog": 0.07812256432537522, "delta1": 0.9881346640842301, "delta2": 0.999998352712109, "delta3": 1.0}}, "elapsed_seconds": 2527.7129151821136}
