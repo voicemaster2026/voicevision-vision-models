@@ -1,0 +1,3026 @@
+{
+  "schema": "voicevision.robustad-siglip2-split-manifest/1",
+  "dataset_id": "AmazonScience/RobustAD",
+  "dataset_revision": "82c642b2d18be60f2dab104f8dd4dea1f4ccfacb",
+  "dataset_source_manifest_sha256": "04e8a7b3f50f2a6e0ea56d0f27735ef6b89ca070cc4dc44b106a4939954b8be8",
+  "seed": 20261028,
+  "subsets": {
+    "MetalParts": {
+      "source_domain": "train",
+      "validation_assignment": "stratified deterministic 20% within train domain",
+      "train": [
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_156.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_75.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_39.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_174.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_93.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_57.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_138.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_165.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_84.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_129.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_183.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_66.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_147.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_40.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_202.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_103.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_130.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_31.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_112.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_79.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_196.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_178.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_169.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_187.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_26.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_107.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_62.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_143.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_17.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_170.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_53.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_134.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_116.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_71.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_152.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_77.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_158.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_194.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_176.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_86.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_167.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_185.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_149.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_68.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_6.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_123.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_204.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_105.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_24.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_60.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_15.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_132.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_114.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_150.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_2.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_200.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_198.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_11.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_110.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_189.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_127.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_109.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_28.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_181.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_145.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_64.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_91.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_172.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_136.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_55.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_37.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_190.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_154.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_73.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_193.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_157.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_76.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_139.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_58.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_175.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_94.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_166.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_85.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_67.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_184.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_203.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_41.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_140.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_23.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_104.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_131.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_50.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_14.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_32.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_113.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_197.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_1.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_179.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_98.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_100.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_89.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_126.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_45.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_9.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_144.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_63.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_108.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_54.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_117.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_195.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_78.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_159.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_168.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_69.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_186.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_43.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_124.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_205.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_160.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_61.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_142.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_52.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_133.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_70.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_151.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_115.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_199.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_120.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_3.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_102.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_21.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_111.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_30.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_47.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_83.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_164.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_65.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_146.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_182.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_56.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_74.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_155.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_38.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_191.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_13.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_14.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_&_Porosity_None_None_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_11.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_15.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_2.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_2.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_&_Porosity_None_None_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_19.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_10.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_10.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_14.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_17.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_18.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_15.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_&_Porosity_None_None_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_12.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_&_Porosity_None_None_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_2.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_11.jpg",
+          "label": 1
+        }
+      ],
+      "validation": [
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_192.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_48.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_13.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_97.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_88.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_80.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_44.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_125.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_35.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_95.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_59.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_42.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_141.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_33.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_20.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_82.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_46.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_19.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_49.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_148.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_122.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_188.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_81.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_180.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_135.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_171.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_90.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_72.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_96.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_7.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_25.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_34.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_12.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_29.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_92.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/normal/Live_Normal_None_None_173.jpg",
+          "label": 0
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_16.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_20.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_&_Porosity_None_None_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Porosity_None_None_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Chipping_None_None_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Porosity_None_None_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "MetalParts/metal_parts_data_dir_train/anomaly/Live_Multiple_Chipping_None_None_7.jpg",
+          "label": 1
+        }
+      ],
+      "test_domains": [
+        "test0",
+        "test1",
+        "test2",
+        "test3",
+        "test4",
+        "test5",
+        "test6"
+      ],
+      "mask_usage": "Masks retained in source data but not used by this image-level classifier."
+    },
+    "PCB": {
+      "source_domain": "train",
+      "validation_assignment": "stratified deterministic 20% within train domain",
+      "train": [
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_36.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_162.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_126.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_54.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_9.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_108.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_90.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_144.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_18.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_45.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_171.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_81.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_117.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_27.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_98.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_1.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_100.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_89.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_166.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_76.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_58.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_94.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_148.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_175.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_49.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_139.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_67.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_157.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_131.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_113.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_23.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_5.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_50.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_104.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_14.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_140.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_122.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_32.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_38.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_164.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_74.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_56.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_146.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_47.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_173.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_137.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_83.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_119.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_65.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_29.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_155.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_111.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_21.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_102.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_3.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_12.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_120.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_30.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_168.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_78.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_96.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_177.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_87.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_69.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_159.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_133.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_115.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_151.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_25.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_106.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_52.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_16.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_124.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_160.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_127.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_73.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_163.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_145.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_91.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_55.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_109.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_136.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_82.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_46.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_172.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_154.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_64.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_118.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_20.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_99.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_110.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_11.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_2.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_101.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_77.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_167.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_95.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_86.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_176.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_158.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_42.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_150.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_114.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_141.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_51.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_105.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_33.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_123.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_75.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_129.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_39.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_147.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_84.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_138.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_48.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_174.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_156.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_66.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_130.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_40.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_22.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_112.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_13.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_103.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_31.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_121.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_79.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_97.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_88.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_178.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_80.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_134.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_170.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_44.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_26.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_116.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_62.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_143.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_107.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_8.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_53.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_35.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_125.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_71.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_37.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_33.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_47.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_46.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_38.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_37.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_46.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_34.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_43.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_39.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_49.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_17.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_44.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_48.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_40.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_50.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_32.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_48.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_40.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_44.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_36.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_45.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_35.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_48.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_38.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_34.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_47.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_43.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_39.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_40.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_43.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_34.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_44.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_36.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_50.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_32.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_42.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_49.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_41.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_45.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_50.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_36.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_46.jpg",
+          "label": 1
+        }
+      ],
+      "validation": [
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_72.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_180.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_135.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_63.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_153.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_179.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_10.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_85.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_41.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_128.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_92.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_43.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_61.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_7.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_142.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_70.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_34.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_37.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_19.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_28.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_149.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_59.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_68.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_132.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_24.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_60.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_15.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_6.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_165.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_93.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_57.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_4.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_169.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_152.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_17.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/normal/Train_PCB_resized_None_None_Normal_Set1_161.jpg",
+          "label": 0
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_42.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_42.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_33.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_35.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_41.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_39.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_38.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_47.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_35.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Missing Component_45.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_49.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Soldering Melt_41.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_33.jpg",
+          "label": 1
+        },
+        {
+          "path": "PCB/pcb_data_dir_train/anomaly/Train_PCB_None_None_Scratch_37.jpg",
+          "label": 1
+        }
+      ],
+      "test_domains": [
+        "test0",
+        "test1",
+        "test2",
+        "test3",
+        "test4",
+        "test5"
+      ],
+      "mask_usage": "Masks retained in source data but not used by this image-level classifier."
+    },
+    "PiledBags": {
+      "source_domain": "train",
+      "validation_assignment": "stratified deterministic 20% within train domain",
+      "train": [
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_140.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_5.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_14.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_122.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_32.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_113.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_131.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_41.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_58.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_148.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_94.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_76.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_166.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_67.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_85.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_175.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_139.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_49.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_54.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_180.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_90.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_18.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_108.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_72.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_36.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_126.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_153.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_63.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_117.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_171.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_45.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_135.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_98.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_179.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_100.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_1.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_52.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_142.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_16.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_7.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_106.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_70.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_160.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_34.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_124.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_61.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_151.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_25.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_43.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_133.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_96.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_78.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_168.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_159.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_87.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_177.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_146.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_92.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_164.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_74.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_128.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_38.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_65.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_119.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_173.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_83.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_137.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_47.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_111.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_21.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_120.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_30.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_3.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_102.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_12.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_15.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_105.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_51.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_141.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_33.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_123.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_24.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_114.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_60.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_42.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_132.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_95.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_59.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_149.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_86.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_176.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_91.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_145.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_55.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_127.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_37.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_73.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_118.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_28.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_154.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_136.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_46.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_172.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_110.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_20.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_99.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_11.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_2.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_17.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_107.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_8.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_53.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_143.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_125.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_71.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_161.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_116.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_152.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_44.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_134.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_80.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_170.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_97.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_79.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_169.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_88.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_147.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_57.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_129.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_39.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_165.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_75.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_66.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_138.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_48.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_174.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_84.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_112.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_130.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_40.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_121.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_31.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_103.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_13.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_19.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_8.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_11.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_37.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_2.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_20.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_17.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_51.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_33.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_22.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_13.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_15.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_24.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_31.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_11.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_40.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_13.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_39.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_4.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_19.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_22.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_48.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_6.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_53.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_35.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_24.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_15.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_44.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_17.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_26.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_30.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_10.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_12.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_9.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_18.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_47.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_23.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_43.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_16.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_25.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_50.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_3.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_21.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_41.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_14.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_23.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_5.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_49.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_10.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_54.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_7.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_25.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_18.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_27.jpg",
+          "label": 1
+        }
+      ],
+      "validation": [
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_50.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_104.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_23.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_157.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_144.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_9.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_162.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_27.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_81.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_89.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_10.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_115.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_69.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_56.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_155.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_29.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_6.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_150.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_77.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_167.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_68.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_158.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_109.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_19.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_163.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_64.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_82.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_101.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_35.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_26.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_62.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_178.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_93.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_156.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_22.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/normal/Piled Bags_Live_Train_None_None_Normal_4.jpg",
+          "label": 0
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_46.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_42.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_2.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_20.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_38.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_21.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_52.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_34.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_14.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_32.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_12.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_36.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Underload_16.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Flipped_1.jpg",
+          "label": 1
+        },
+        {
+          "path": "PiledBags/piled_bags_data_dir_train/anomaly/Piled Bags_Live_Train_None_None_Overload_45.jpg",
+          "label": 1
+        }
+      ],
+      "test_domains": [
+        "test0",
+        "test1",
+        "test2",
+        "test3",
+        "test4",
+        "test5"
+      ],
+      "mask_usage": "Masks retained in source data but not used by this image-level classifier."
+    }
+  },
+  "public_filtered_source_manifest_sha256": "803ed41b1d53308e6da92530c9a696b2041d89d4d849f35dd0f62b14962c95ca"
+}

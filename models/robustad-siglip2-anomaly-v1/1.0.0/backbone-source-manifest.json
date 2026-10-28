@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "models": [
+    {
+      "id": "google/siglip2-base-patch16-224",
+      "name": "SigLIP 2 Base Patch16 224",
+      "repo_type": "model",
+      "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/google/siglip2-base-patch16-224",
+      "role": "zero-shot image classification, retrieval, vision features",
+      "summary": "Vision-language encoder for zero-shot image classification, image-text retrieval and visual features.",
+      "citation": "Tschannen et al., Sigmoid Loss for Language Image Pre-Training (2025), https://huggingface.co/papers/2502.14786",
+      "runtime_status": "Candidate only; not connected to a VVP command or runtime profile.",
+      "files": [
+        {
+          "path": "README.md",
+          "size_bytes": 3375,
+          "sha256": "39ac3705d62af9ffa1a14675b8ccb220a75f2d81acd530e564a3b1e3dfe418d8"
+        },
+        {
+          "path": "config.json",
+          "size_bytes": 253,
+          "sha256": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7"
+        },
+        {
+          "path": "model.safetensors",
+          "size_bytes": 1500800904,
+          "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size_bytes": 394,
+          "sha256": "9b36b57ebaf20f09bf4c22100ccc21877ea6bfe5aead0c00c59f8af8ccefacfc"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size_bytes": 636,
+          "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351"
+        },
+        {
+          "path": "tokenizer.json",
+          "size_bytes": 34363039,
+          "sha256": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322"
+        },
+        {
+          "path": "tokenizer.model",
+          "size_bytes": 4241003,
+          "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size_bytes": 47164,
+          "sha256": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8"
+        }
+      ]
+    }
+  ]
+}

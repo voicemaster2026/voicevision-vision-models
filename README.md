@@ -60,3 +60,35 @@ It refuses to overwrite a nonempty output directory. The checked-in
 synthetic training/evaluation data and templates (CC0-1.0). The source code and
 trained checkpoint are published here by the project owner; this repository
 does not add a separate license grant for them.
+
+## Additional industrial anomaly candidate
+
+The repository also contains the experimental RobustAD/SigLIP2 model heads at
+[`models/robustad-siglip2-anomaly-v1/1.0.0/`](models/robustad-siglip2-anomaly-v1/1.0.0/).
+They classify images as normal or anomalous for the MetalParts, PCB, and
+PiledBags subsets. The SigLIP2 encoder is frozen; only the three linear heads
+were trained. The model does not locate defects.
+
+Its reported macro F1 is 0.924 on the in-source validation split and 0.560 on
+3,631 held-out images across 19 target domains. The cross-domain score is the
+more relevant limit. These results do not establish performance on VoiceVision
+customer products or production lines.
+
+The trained heads are included. Inference also needs the pinned public
+[`google/siglip2-base-patch16-224`](https://huggingface.co/google/siglip2-base-patch16-224/tree/75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2)
+backbone (Apache-2.0), which the loader downloads from Hugging Face unless a
+local snapshot is supplied. The exact backbone file hashes are in
+`backbone-source-manifest.json`. The RobustAD source dataset is CC BY 4.0 and is not
+redistributed here. Its revision and per-file hashes are in the model's
+`dataset-source-manifest.json`; the dataset card is at
+[`AmazonScience/RobustAD`](https://huggingface.co/datasets/AmazonScience/RobustAD/commit/82c642b2d18be60f2dab104f8dd4dea1f4ccfacb).
+
+For inference, install `requirements-robustad.txt` and run:
+
+```sh
+python tools/classify_robustad.py --image /path/to/image.jpg --subset MetalParts
+```
+
+The normal/anomaly score is an uncalibrated model estimate, not a quality
+decision. See the RobustAD model card for data provenance, validation scope and
+limitations.

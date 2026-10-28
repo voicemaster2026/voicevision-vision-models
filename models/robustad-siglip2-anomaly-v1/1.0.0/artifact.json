@@ -1,0 +1,63 @@
+{
+  "schema": "voicevision.model-artifact/1",
+  "id": "robustad-siglip2-anomaly-v1",
+  "version": "1.0.0",
+  "task": "binary normal/anomaly image classification",
+  "artifact_file": "model.pt",
+  "artifact_sha256": "4bd7a63c47ae3829b145288175f11c14b0304104a4aaad0851916470c284fcac",
+  "base_model": {
+    "id": "google/siglip2-base-patch16-224",
+    "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+    "license": "Apache-2.0",
+    "source_url": "https://huggingface.co/google/siglip2-base-patch16-224/tree/75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2"
+  },
+  "training": {
+    "dataset_repo": "AmazonScience/RobustAD",
+    "dataset_revision": "82c642b2d18be60f2dab104f8dd4dea1f4ccfacb",
+    "dataset_path": "datasets/AmazonScience/RobustAD",
+    "dataset_manifest_sha256": "04e8a7b3f50f2a6e0ea56d0f27735ef6b89ca070cc4dc44b106a4939954b8be8",
+    "dataset_file_count": 5379,
+    "split_counts": {
+      "MetalParts": {
+        "train": 185,
+        "validation": 46
+      },
+      "PCB": {
+        "train": 204,
+        "validation": 51
+      },
+      "PiledBags": {
+        "train": 204,
+        "validation": 51
+      }
+    },
+    "seed": 20261028,
+    "epochs_run": {
+      "MetalParts": 1,
+      "PCB": 77,
+      "PiledBags": 80
+    },
+    "source_train_validation_image_count": 741,
+    "held_out_test_image_count": 3631
+  },
+  "validation": {
+    "macro_f1": 0.9243421052631579,
+    "balanced_accuracy": 0.9120370370370371
+  },
+  "test": {
+    "macro_f1": 0.5600227147456984,
+    "balanced_accuracy": 0.6243498452012384,
+    "samples": 3631,
+    "target_domains": 19
+  },
+  "runtime_status": "experimental; not integrated into an active VVP runtime",
+  "limitations": [
+    "Three subset-specific linear heads classify images as normal/anomaly; they do not localize defects.",
+    "The SigLIP2 image encoder is frozen; only per-subset linear heads were trained.",
+    "Validation is a deterministic stratified image split within the official source train domain; it is not grouped by capture session.",
+    "Official target-domain test sets were held out and are not used for tuning.",
+    "Metrics on RobustAD do not establish performance on VoiceVision customer products or production lines.",
+    "Training data is CC-BY-4.0 and the base model is Apache-2.0; see the linked sources and attribution in the model README."
+  ],
+  "public_filtered_source_manifest_sha256": "803ed41b1d53308e6da92530c9a696b2041d89d4d849f35dd0f62b14962c95ca"
+}
