@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "evaluation_scope": "synthetic generated scenes only; no camera/real parts/ASR validation",
+  "model_sha256": "a132cbc2b933a82774ab728891ade5723e4967fe78f175b97bc319433ff3550f",
+  "metrics": {
+    "all_modalities": {
+      "samples": 800,
+      "intent_accuracy": 1.0,
+      "shape_accuracy": 1.0,
+      "color_accuracy": 1.0,
+      "joint_accuracy": 1.0,
+      "confusion_matrices_actual_rows_predicted_columns": [
+        [
+          [
+            278,
+            0,
+            0
+          ],
+          [
+            0,
+            270,
+            0
+          ],
+          [
+            0,
+            0,
+            252
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            193,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            190
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            226,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            196,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            183
+          ]
+        ]
+      ]
+    },
+    "no_image": {
+      "samples": 800,
+      "intent_accuracy": 1.0,
+      "shape_accuracy": 0.24375,
+      "color_accuracy": 0.24375,
+      "joint_accuracy": 0.24375,
+      "confusion_matrices_actual_rows_predicted_columns": [
+        [
+          [
+            278,
+            0,
+            0
+          ],
+          [
+            0,
+            270,
+            0
+          ],
+          [
+            0,
+            0,
+            252
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            193,
+            0,
+            0,
+            0
+          ],
+          [
+            222,
+            0,
+            0,
+            0
+          ],
+          [
+            190,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            226,
+            0,
+            0,
+            0
+          ],
+          [
+            196,
+            0,
+            0,
+            0
+          ],
+          [
+            183,
+            0,
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    "no_text": {
+      "samples": 800,
+      "intent_accuracy": 0.315,
+      "shape_accuracy": 1.0,
+      "color_accuracy": 1.0,
+      "joint_accuracy": 0.315,
+      "confusion_matrices_actual_rows_predicted_columns": [
+        [
+          [
+            0,
+            0,
+            278
+          ],
+          [
+            0,
+            0,
+            270
+          ],
+          [
+            0,
+            0,
+            252
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            193,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            190
+          ]
+        ],
+        [
+          [
+            195,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            226,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            196,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            183
+          ]
+        ]
+      ]
+    },
+    "wrong_region": {
+      "samples": 800,
+      "intent_accuracy": 1.0,
+      "shape_accuracy": 0.24,
+      "color_accuracy": 0.22875,
+      "joint_accuracy": 0.11375,
+      "confusion_matrices_actual_rows_predicted_columns": [
+        [
+          [
+            278,
+            0,
+            0
+          ],
+          [
+            0,
+            270,
+            0
+          ],
+          [
+            0,
+            0,
+            252
+          ]
+        ],
+        [
+          [
+            41,
+            51,
+            49,
+            54
+          ],
+          [
+            54,
+            43,
+            53,
+            43
+          ],
+          [
+            55,
+            52,
+            65,
+            50
+          ],
+          [
+            45,
+            47,
+            55,
+            43
+          ]
+        ],
+        [
+          [
+            41,
+            59,
+            46,
+            49
+          ],
+          [
+            68,
+            57,
+            57,
+            44
+          ],
+          [
+            51,
+            62,
+            39,
+            44
+          ],
+          [
+            35,
+            48,
+            54,
+            46
+          ]
+        ]
+      ]
+    }
+  },
+  "full_input_train_evaluation_overlap": 0,
+  "evaluation_used_for_training_or_selection": false,
+  "geometry_holdout": "train half-size 6..9 and center jitter -2..2; evaluation half-size 10..11 and center jitter +/-4",
+  "template_holdout": {
+    "train": [
+      [
+        "inspect this region",
+        "please inspect the marked shape",
+        "zkontroluj tuto oblast",
+        "prosim zkontroluj oznacenou oblast"
+      ],
+      [
+        "count objects in this region",
+        "please count the marked objects",
+        "spocitej objekty v oblasti",
+        "prosim spocitej oznacene objekty"
+      ],
+      [
+        "measure this region",
+        "please measure the marked shape",
+        "zmer tuto oblast",
+        "prosim zmer oznaceny tvar"
+      ]
+    ],
+    "evaluation": [
+      [
+        "inspect the marked region please",
+        "prosim tuto oblast zkontroluj"
+      ],
+      [
+        "count the objects in the marked region please",
+        "objekty v oblasti prosim spocitej"
+      ],
+      [
+        "measure the marked region please",
+        "tuto oblast prosim zmer"
+      ]
+    ]
+  },
+  "ablations_scope": "diagnostic interventions only; wrong_region swaps region/mask association across samples",
+  "confidence_calibrated": false
+}

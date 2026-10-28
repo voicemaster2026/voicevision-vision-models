@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "artifact_version": "0.1.0",
+  "family": "vision-fusion",
+  "architecture": "region-scene-text-cnn-v1",
+  "intents": [
+    "inspect_region",
+    "count_objects",
+    "measure_dimensions"
+  ],
+  "shapes": [
+    "empty",
+    "circle",
+    "rectangle",
+    "triangle"
+  ],
+  "colors": [
+    "background",
+    "red",
+    "green",
+    "blue"
+  ],
+  "vocabulary": {
+    "<pad>": 0,
+    "<unk>": 1,
+    "count": 2,
+    "in": 3,
+    "inspect": 4,
+    "marked": 5,
+    "measure": 6,
+    "objects": 7,
+    "objekty": 8,
+    "oblast": 9,
+    "oblasti": 10,
+    "oznacene": 11,
+    "oznacenou": 12,
+    "oznaceny": 13,
+    "please": 14,
+    "prosim": 15,
+    "region": 16,
+    "shape": 17,
+    "spocitej": 18,
+    "the": 19,
+    "this": 20,
+    "tuto": 21,
+    "tvar": 22,
+    "v": 23,
+    "zkontroluj": 24,
+    "zmer": 25
+  },
+  "model_file": "model.pt",
+  "model_sha256": "a132cbc2b933a82774ab728891ade5723e4967fe78f175b97bc319433ff3550f",
+  "parameter_count": 78355,
+  "created_at_utc": "2026-10-23T21:51:07.935519+00:00",
+  "status": "experimental_synthetic_only",
+  "training_data": {
+    "source": "project-authored deterministic primitive renderer and CS/EN command templates",
+    "license": "CC0-1.0 for newly generated synthetic data and templates",
+    "external_data": false,
+    "customer_data": false,
+    "physical_camera_images": false,
+    "train_samples": 3200,
+    "evaluation_samples": 800,
+    "manifest_sha256": "e209ef0af7e9d7f653fb6ccb0d73210c5459caa7f1c8135f210ae24fcb49f1e2"
+  },
+  "training": {
+    "seed": 20261023,
+    "epochs": 20,
+    "batch_size": 64,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "history": [
+      {
+        "epoch": 1,
+        "training_loss": 2.6058158135414122
+      },
+      {
+        "epoch": 2,
+        "training_loss": 0.725910901427269
+      },
+      {
+        "epoch": 3,
+        "training_loss": 0.32898278772830963
+      },
+      {
+        "epoch": 4,
+        "training_loss": 0.18405652791261673
+      },
+      {
+        "epoch": 5,
+        "training_loss": 0.10404694721102714
+      },
+      {
+        "epoch": 6,
+        "training_loss": 0.06278471626341343
+      },
+      {
+        "epoch": 7,
+        "training_loss": 0.04115405101329088
+      },
+      {
+        "epoch": 8,
+        "training_loss": 0.0301358263194561
+      },
+      {
+        "epoch": 9,
+        "training_loss": 0.02181052163243294
+      },
+      {
+        "epoch": 10,
+        "training_loss": 0.017181635349988938
+      },
+      {
+        "epoch": 11,
+        "training_loss": 0.01321597522124648
+      },
+      {
+        "epoch": 12,
+        "training_loss": 0.011763683268800378
+      },
+      {
+        "epoch": 13,
+        "training_loss": 0.008866510251536966
+      },
+      {
+        "epoch": 14,
+        "training_loss": 0.007343325819820165
+      },
+      {
+        "epoch": 15,
+        "training_loss": 0.006246422482654453
+      },
+      {
+        "epoch": 16,
+        "training_loss": 0.005175352394580841
+      },
+      {
+        "epoch": 17,
+        "training_loss": 0.004309158571995795
+      },
+      {
+        "epoch": 18,
+        "training_loss": 0.0037404302414506675
+      },
+      {
+        "epoch": 19,
+        "training_loss": 0.0033965679677203297
+      },
+      {
+        "epoch": 20,
+        "training_loss": 0.0030634430004283786
+      }
+    ],
+    "elapsed_seconds": 66.2913631450001,
+    "cpu_threads": 4
+  },
+  "runtime": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pillow": "12.0.0",
+    "device": "cpu"
+  },
+  "source_sha256": {
+    "tools/train_vision_fusion.py": "d9f48d8a199e2edc395817437d2a782d99b1e0e0871b2108e67f50e2cfb358f9",
+    "voicevisionunited/vision_fusion.py": "443f4a7c3fb9ed953166c9199b4313bbdde2b6eda4a173e6bf249fd5cde9b9ed"
+  },
+  "evaluation_sha256": "11d242461510970e5185bdae9f7e23575fd3771e3a5acbac24e0e60f5be54135",
+  "inference_api": "voicevisionunited.vision_fusion.propose(..., aiappdata_result=None)",
+  "limitations": [
+    "No real camera/part validation.",
+    "Input is transcript, not audio; ASR is separate.",
+    "ROI comes from vector geometry, not inferred measurement.",
+    "Only inspect/count/measure proposals; no execution or task result.",
+    "Softmax scores are uncalibrated; no deployment/promotion claim."
+  ],
+  "inference_source_sha256": "443f4a7c3fb9ed953166c9199b4313bbdde2b6eda4a173e6bf249fd5cde9b9ed",
+  "inference_hardening_note": "Version 0.1.0 preserves the exact 0.0.0 model weights and training data. It adds optional, hash-bound AIappdata evidence after the learned forward pass; targeted tests cover same-image correlation, unchanged Fusion scores/proposal and mismatch rejection.",
+  "integration_contract": {
+    "aiappdata_interface": "aiappdata.vision.result/1.1",
+    "field": "upstream_visual_evidence",
+    "validation": "pinned local adapter contract plus exact normalized tensor SHA-256 match to the same source image",
+    "effect": "parallel evidence only; does not enter VisionFusion learned forward pass or affect its scores",
+    "weight_change": false
+  }
+}
