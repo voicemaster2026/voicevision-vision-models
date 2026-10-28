@@ -92,3 +92,16 @@ python tools/classify_robustad.py --image /path/to/image.jpg --subset MetalParts
 The normal/anomaly score is an uncalibrated model estimate, not a quality
 decision. See the RobustAD model card for data provenance, validation scope and
 limitations.
+
+To retrieve and verify the exact public dataset and backbone snapshots, run
+`python tools/prepare_robustad_assets.py`. The dataset is about 16.3 GB and the
+backbone is about 1.54 GB; both are pinned and each file is checked against the
+included SHA-256 manifests. Then retrain with:
+
+```sh
+python tools/train_robustad_siglip2.py \
+  --dataset-root datasets/RobustAD \
+  --backbone models/backbones/siglip2-base-patch16-224 \
+  --dataset-source-manifest models/robustad-siglip2-anomaly-v1/1.0.0/dataset-source-manifest.json \
+  --output-dir training-output/robustad-reproduction
+```

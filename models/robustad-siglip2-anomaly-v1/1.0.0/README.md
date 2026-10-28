@@ -39,7 +39,14 @@ accept/reject decision.
 
 ## Reproduction
 
-The trainer is `tools/train_robustad_siglip2.py` at the repository root. It
-expects the full pinned RobustAD snapshot, a local snapshot of the pinned
-SigLIP2 backbone, and a dataset source manifest with this model's dataset
-entry. Its training dependencies are in `requirements-robustad.txt`.
+Install `requirements-robustad.txt`, run `python tools/prepare_robustad_assets.py`
+from the repository root to retrieve and hash-verify the pinned dataset and
+backbone, then run:
+
+```sh
+python tools/train_robustad_siglip2.py \
+  --dataset-root datasets/RobustAD \
+  --backbone models/backbones/siglip2-base-patch16-224 \
+  --dataset-source-manifest models/robustad-siglip2-anomaly-v1/1.0.0/dataset-source-manifest.json \
+  --output-dir training-output/robustad-reproduction
+```
